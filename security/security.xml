@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <!-- Administrador juancarlosodoo -->
+    <record id="administrador" model="res.groups">
+      <field name="name">Juancarlosodoo/Administrador</field>
+      <field name="comment">Perfil administrador a los proyectos</field>
+    </record>
+    <!-- Jefe_de_proyectos juancarlosodoo -->
+    <record id="jefe_de_proyectos" model="res.groups">
+      <field name="name">Juancarlosodoo/Jefe de proyectos</field>
+      <field name="comment">Perfil Jefe de proyectos de los proyectos</field>
+    </record>
+    <!-- Analista juancarlosodoo -->
+    <record id="analista" model="res.groups">
+      <field name="name">Juancarlosodoo/Analista</field>
+      <field name="comment">Perfil Analista de los proyectos</field>
+    </record>
+    <!-- Programador juancarlosodoo -->
+    <record id="programador" model="res.groups">
+      <field name="name">Juancarlosodoo/Programador</field>
+      <field name="comment">Perfil Programador de los proyectos</field>
+    </record>
+  </data>
+</odoo>
